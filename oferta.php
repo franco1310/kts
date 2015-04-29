@@ -19,11 +19,15 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/menu3d.js" type="text/javascript"></script>
     <script src="js/scripts.js"></script>
-
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <script type="text/javascript">
+    jQuery(document).ready(function ($) {
+        $('#tabs').tab();
+    });
+</script> 
   </head>
   <body>
 <div class="container-fluid">
@@ -300,17 +304,173 @@
 		    	  			<strong>Nombre de la empresa</strong> <br>
 		    	  			<small>Nombre del local</small>
 	    	  			</h5>
+	    	  			<h4>Pantal&oacute;n de Vestir Foster modelo cl&aacute;sico 20% de descuento</h4>
+	    	  			<h2 class="text-center text-red"><strong>S/. 80.00</strong></h2>
+	    	  		
+	    	  		
+	    	  			<p>Precio Regular</p>
+                        <p>Descuento con Cup&oacute;n</p>
+                        <p>Ahorro Total</p>
+                        <p class="p1" style="font-size:15px">S/. 100.00</p>
+                        <p class="p2" style="font-size:15px">20%</p>
+                        <p class="p3" style="font-size:15px">S/. 20.00</p>
+                        
+                        <a href="#" class="btn btn-red center-block btn-cupon"><i class="fa fa-tags fa-fw"></i>Quiero mi Cup&oacute;n</a>
 
+                        <div class="aviso center-block text-center f-space20">
+                        	<h4>
+                        	<small class="clearfix text-black">Cup&oacute;n disponible hasta</small>
+                        	<i class="fa fa-clock-o fa-fw"></i>20 de Marzo del 2015 <br>
+                        	<small class="text-black">&oacute; hasta agotar stock</small></h4>
+                        </div>
+                        <div class="comparte f-space10 clearfix">
+                           <div class="iconos-ks pull-right">
+	                        <b>Comparte </b>
+	                        <i class="fa fa-facebook-square"></i>
+	                        <i class="fa fa-twitter-square"></i>
+	                        <i class="fa fa-google-plus-square"></i>
+	                        <i class="fa fa-envelope"></i>
+	                       </div>
+                        </div>
 	    	  		</div>
 	    	  	</article>
     	  	</section>
+    	<div class="f-space5"></div>
+     	<div class="col-md-12 bg-white col-padding">
+     		<div class="col-padding">
+     			<div id="content">
+				    <ul id="tabs" class="nav nav-tabs" data-tabs="tabs">
+				        <li class="active"><a href="#red" data-toggle="tab">Red</a></li>
+				        <li><a href="#orange" data-toggle="tab">Orange</a></li>
+				        <li><a href="#yellow" data-toggle="tab">Yellow</a></li>
+				        <li><a href="#green" data-toggle="tab">Green</a></li>
+				        <li><a href="#blue" data-toggle="tab">Blue</a></li>
+				    </ul>
+				    <div id="my-tab-content" class="tab-content">
+				        <div class="tab-pane active" id="red">
+				            <h1>Red</h1>
+				            <p>red red red red red red</p>
+				        </div>
+				        <div class="tab-pane" id="orange">
+				            <h1>Orange</h1>
+				            <p>orange orange orange orange orange</p>
+				        </div>
+				        <div class="tab-pane" id="yellow">
+				            <h1>Yellow</h1>
+				            <p>yellow yellow yellow yellow yellow</p>
+				        </div>
+				        <div class="tab-pane" id="green">
+				            <h1>Green</h1>
+				            <p>green green green green green</p>
+				        </div>
+				        <div class="tab-pane" id="blue">
+				            <h1>Blue</h1>
+				            <p>blue blue blue blue blue</p>
+				        </div>
+				    </div>
+				</div><!-- fin content -->
+     		</div>
+     	</div><!-- fin col-md-12-->
+
+     	<div class="col-md-12 col-p-ks">
+     		<div class="">
+     			<div class="sub-title-ks">
+		        	Mas ofertas de esta tienda
+		        </div>
+
+		        <div class="col-md-4  col-p">		        		
+			        		<div class="thumbnail">
+			        			<span class="label etiqueta">-30%</span>
+						     	<a href="oferta.php">
+				      				<img src="img/products/product1.jpg" alt="..." class="img-responsive">
+				    			</a>
+				    			<div class="caption-ks">
+				    				<div class="row titulo">
+				    					<h4 class="text-center">Una docena de + un regalo Casaca de Outdoor Terrex Swift...</h4>
+				    				</div>
+				    				<div class="row">
+				    					<div class="col-md-6">
+					    					<div style="line-height: 1">
+					    				    	<spam class="old">S/.120.00</spam><br/>
+					    				    	<spam class="new">S/.100.00</spam>
+						    				</div>
+										</div>
+										<div class="col-md-6">
+						    				<div class="pull-right">
+						    					<a href="oferta.php" class="btn btn-red" role="button"><i class="fa fa-tags fa-fw"></i> <span>Cupón</span></a>
+						    				</div>
+					    				</div>
+				    				</div>				    				
+
+				    			</div><!-- fin caption -->
+			    			</div><!-- fin thumbnail-->
+		    		</div><!-- fin col -->
+		    		<div class="col-md-4  col-p">		        		
+			        		<div class="thumbnail">
+			        			<span class="label etiqueta">-30%</span>
+						     	<a href="oferta.php">
+				      				<img src="img/products/product1.jpg" alt="..." class="img-responsive">
+				    			</a>
+				    			<div class="caption-ks">
+				    				<div class="row titulo">
+				    					<h4 class="text-center">Una docena de + un regalo Casaca de Outdoor Terrex Swift...</h4>
+				    				</div>
+				    				<div class="row">
+				    					<div class="col-md-6">
+					    					<div style="line-height: 1">
+					    				    	<spam class="old">S/.120.00</spam><br/>
+					    				    	<spam class="new">S/.100.00</spam>
+						    				</div>
+										</div>
+										<div class="col-md-6">
+						    				<div class="pull-right">
+						    					<a href="oferta.php" class="btn btn-red" role="button"><i class="fa fa-tags fa-fw"></i> <span>Cupón</span></a>
+						    				</div>
+					    				</div>
+				    				</div>				    				
+
+				    			</div><!-- fin caption -->
+			    			</div><!-- fin thumbnail-->
+		    		</div><!-- fin col -->
+		    		<div class="col-md-4  col-p">		        		
+			        		<div class="thumbnail">
+			        			<span class="label etiqueta">-30%</span>
+						     	<a href="oferta.php">
+				      				<img src="img/products/product1.jpg" alt="..." class="img-responsive">
+				    			</a>
+				    			<div class="caption-ks">
+				    				<div class="row titulo">
+				    					<h4 class="text-center">Una docena de + un regalo Casaca de Outdoor Terrex Swift...</h4>
+				    				</div>
+				    				<div class="row">
+				    					<div class="col-md-6">
+					    					<div style="line-height: 1">
+					    				    	<spam class="old">S/.120.00</spam><br/>
+					    				    	<spam class="new">S/.100.00</spam>
+						    				</div>
+										</div>
+										<div class="col-md-6">
+						    				<div class="pull-right">
+						    					<a href="oferta.php" class="btn btn-red" role="button"><i class="fa fa-tags fa-fw"></i> <span>Cupón</span></a>
+						    				</div>
+					    				</div>
+				    				</div>				    				
+
+				    			</div><!-- fin caption -->
+			    			</div><!-- fin thumbnail-->
+		    		</div><!-- fin col -->
+
+
+
+     		</div><!-- fin container-->
+     	</div><!-- fin colmd-12-->
 
      	</div>
-      
-     
+      </div> <!-- fin container-->
+     </div>
      
 <div class="clearfix"></div>
-<div class="container col-padding">
+<div class="container-fluid container-foot">
  <footer class="foot">
 
 	    	<div class="col-md-3">
@@ -390,9 +550,8 @@
 	
 	 </footer>   
 	 </div>
-</div> <!-- fin container-->
-<script>
 
+<script>
 (function($) {
   "use strict";
  $('#menuMega').menu3d();

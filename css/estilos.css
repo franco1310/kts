@@ -46,6 +46,8 @@ article.producto-img img{
 	padding: 3px;
 	display: inline-block;
 	width: 100%;
+	height: auto;
+	min-height: 420px;
 	margin-bottom: 3px;
 	vertical-align: top;
 }
@@ -55,6 +57,16 @@ article.producto-img img{
 .img-logo{
 	width: 20%;
 	height: 50px;
+}
+.product-details p{
+	display: inline-block;
+	margin-left: 15px;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+	width: 25%;
+	vertical-align: middle;
+	
 }
 .top{margin-top: 0px;}
 .inline{display: inline-block; 
@@ -89,7 +101,10 @@ article.producto-img img{
 	padding: 0 10px 0 0;
 
 }
+.col-p-ks{
+	padding: 0;
 
+}
 .h{ height: auto;
 	min-height: 55px;
 }
@@ -156,7 +171,20 @@ article.producto-img img{
 .color1{
 	background: #aaddaa;
 }
+.aviso{
+	background: #F4F3EF;
+	width: 85%;
+}
+.comparte{
+	width: 93%;
+}
+.iconos-ks{
+	padding: 17px;
 
+}
+.btn-cupon{
+	width: 60%;
+}
 .btn-ks 
 {
 	background: #dadada;
