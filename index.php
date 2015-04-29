@@ -3,23 +3,16 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1.0, minimum-scale=1.0">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>kotoshstore</title>
-
-    <!-- Bootstrap -->
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1.0, minimum-scale=1.0">    
+    <title>kotoshstore</title>    
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/estilos.css" rel="stylesheet">
     <link href="css/menu3d.css" rel="stylesheet"/>
-
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>    
-    <!--<script src="https://code.jquery.com/jquery.latest.js"></script>-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>        
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/menu3d.js" type="text/javascript"></script>
     <script src="js/scripts.js"></script>
-
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
@@ -40,15 +33,11 @@
       <a class="navbar-brand v2" href="#">
       	<img src="img/logo.png" class="img-responsive v">	
       </a>
-    </div>
-
-    <!-- Collect the nav links, forms, and other content for toggling -->
+    </div>    
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <!--<li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
-        <li><a href="#">Link</a></li>-->
+      <ul class="nav navbar-nav">        
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Ciudad <span class="caret"></span></a>
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><b>Tarapoto</b> <span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
             <li><a href="#">Action</a></li>
             <li><a href="#">Another action</a></li>
@@ -59,10 +48,8 @@
             <li><a href="#">One more separated link</a></li>
           </ul>
         </li>
-      </ul>
-      
-      <ul class="nav navbar-nav navbar-right">
-        <!--<li><a href="#">Link</a></li>-->
+      </ul>      
+      <ul class="nav navbar-nav navbar-right">        
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-user fa-fw"></i>Iniciar Sesi&oacute;n <span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
@@ -75,26 +62,23 @@
         </li>
       </ul>
       <form class="navbar-form navbar-right" role="search">
-        <div class="form-group">
-          <input type="text" class="form-control" placeholder="Search">
-        </div>
-        <button type="submit" class="btn btn-primary"><i class="fa fa-search"></i></button>
+        <div class="form-group">        	
+	  		<input type="text" class="form-control form-ks" placeholder="Search">
+	  		<button type="submit" class="btn btn-primary"><i class="fa fa-search"></i></button>
+        </div>        
       </form>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
+    </div>
+  </div>
 </nav>
-</div>
+</div> 
 
 <div class="container">	
      <div class="row">
-        <div class="col-md-3 col-padding">
-	        
-	        <article class="bg-white">
-	        		<!-- menu 3dmega -->
+        <div class="col-md-3 col-padding">	        
+	        <article class="bg-white">	        		
 	              	<div class="menu-heading">
 	              		<span> <i class="fa fa-bars"></i> Categorias</span> 
 	              	</div>
-
 	              	<div class="menu3dmega vertical" id="menuMega">
 	              		<ul>
 				            <!-- Menu Item -->
@@ -271,7 +255,6 @@
 				            
 	              		</ul>
 	              	</div>
-
 	        </article>
 	        <div class="clearfix"><div class="vacio"></div></div>
 	        <article class="">
@@ -283,11 +266,9 @@
 	            			<a href="#a"> <i class="fa fa-envelope"></i> <span>Suscribete</span></a> </li>
 	              		</ul>
 	              	</div>
-	        </article>
-    	
-    	</div>
-    	  
-    	  <div class="col-md-9 col-padding"> 
+	        </article>    	
+    	</div>    	  
+    	<div class="col-md-9 col-padding"> 
     	  	<!-- Iview Slider -->
 		        
 		        <section id="miSlide" class="carousel slide">
@@ -299,10 +280,10 @@
 
 	                <div  class="carousel-inner slide">
 	                    <div class="item active">
-	                        <img src="img/slider/slide0.jpg" class="adaptar">
+	                        <img src="img/slider/slide01.jpg" class="adaptar">
 	                    </div>
 	                    <div  class="item">
-	                        <img src="img/slider/slide01.jpg" class="adaptar">
+	                        <img src="img/slider/slide0.jpg" class="adaptar">
 	                    </div>
 	                    <div  class="item">
 	                        <img src="img/slider/slide1.jpg" class="adaptar">
@@ -311,217 +292,267 @@
 	                <a href="#miSlide" class="left carousel-control" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
 	                <a href="#miSlide" class="right carousel-control" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
             	</section>
-		        
-		        
-		        <div class="f-space5"></div>
 
-		        <div class="box-heading"><span><h4 class="text-black">Los m&aacute;s recientes...</h4></span></div>
-		        <div class="">
-		        	<div class="col-md-4  col-p">
-		        		
-			        		<div class="thumbnail large">
-			        			<span class="etiqueta label label-danger bg-etiqueta">30%</span>
+		        <div class="sub-title-ks">
+		        	Los m&aacute;s recientes
+		        </div>
+		        <div>
+		        	<div class="col-md-4  col-p">		        		
+			        		<div class="thumbnail">
+			        			<span class="label etiqueta">-30%</span>
 						     	<a href="oferta.php">
-				      				<img src="img/products/product1.jpg" alt="...">
+				      				<img src="img/products/product1.jpg" alt="..." class="img-responsive">
 				    			</a>
-				    			<div class="caption">
-				    				<div class="titulo">
-				    				<h4 class="top text-center">una docena de + un regalo Casaca de Outdoor Terrex Swift...</h4>
+				    			<div class="caption-ks">
+				    				<div class="row titulo">
+				    					<h4 class="text-center">Una docena de + un regalo Casaca de Outdoor Terrex Swift...</h4>
 				    				</div>
-				    				<!--<p>descripcion</p>-->
-				    				<p class="inline">
-				    				    <spam class="old">S/.120.00</spam><br>
-				    				    <spam class="new">S/.100.00</spam>          					
-				    				</p>
-				    				<p class="inline btn-right">
-				    					<a href="oferta.php" class="btn  btn-red" role="button"><i class="fa fa-tags fa-fw"></i><span>Cupón</span></a>
-				    				</p>
+				    				<div class="row">
+				    					<div class="col-md-6">
+					    					<div style="line-height: 1">
+					    				    	<spam class="old">S/.120.00</spam><br/>
+					    				    	<spam class="new">S/.100.00</spam>
+						    				</div>
+										</div>
+										<div class="col-md-6">
+						    				<div class="pull-right">
+						    					<a href="oferta.php" class="btn btn-red" role="button"><i class="fa fa-tags fa-fw"></i> <span>Cupón</span></a>
+						    				</div>
+					    				</div>
+				    				</div>				    				
+
 				    			</div><!-- fin caption -->
 			    			</div><!-- fin thumbnail-->
-		    			
-	    			</div><!-- fin col -->
-	    			<div class="col-md-4  col-p">
+		    		</div><!-- fin col -->
+	    			<div class="col-md-4  col-p">		        		
+			        		<div class="thumbnail">
+			        			<span class="label etiqueta">-30%</span>
+						     	<a href="oferta.php">
+				      				<img src="img/products/product1.jpg" alt="..." class="img-responsive">
+				    			</a>
+				    			<div class="caption-ks">
+				    				<div class="row titulo">
+				    					<h4 class="text-center">Una docena de + un regalo Casaca de Outdoor Terrex Swift...</h4>
+				    				</div>
+				    				<div class="row">
+				    					<div class="col-md-6">
+					    					<div style="line-height: 1">
+					    				    	<spam class="old">S/.120.00</spam><br/>
+					    				    	<spam class="new">S/.100.00</spam>
+						    				</div>
+										</div>
+										<div class="col-md-6">
+						    				<div class="pull-right">
+						    					<a href="oferta.php" class="btn btn-red" role="button"><i class="fa fa-tags fa-fw"></i> <span>Cupón</span></a>
+						    				</div>
+					    				</div>
+				    				</div>				    				
 
-		        		<div class="thumbnail">
-		        			<span class="etiqueta label label-danger">30%</span>
-					     	<a href="#">
-			      				<img src="img/products/product1.jpg" alt="...">
-			    			</a>
-			    			<div class="caption">
-			    				<div class="titulo">
-			    				<h4 class="top text-center">Casaca de Outdoor Terrex Swift</h4>
-			    				</div>
-			    				<!--<p>descripcion</p>-->
-			    				<p class="inline">
-			    				    <spam class="old">S/.120.00</spam><br>
-			    				    <spam class="new">S/.100.00</spam>          					
-			    				</p>
-			    				<p class="inline btn-right">
-			    					<a href="#" class="btn  btn-red" role="button"><i class="fa fa-tags fa-fw"></i><span>Cupón</span></a>
-			    				</p>
-			    			</div><!-- fin caption -->
-		    			</div><!-- fin thumbnail-->
+				    			</div><!-- fin caption -->
+			    			</div><!-- fin thumbnail-->		    			
 	    			</div><!-- fin col -->
-	    			<div class="col-md-4 col-p">
+	    			<div class="col-md-4  col-p">		        		
+			        		<div class="thumbnail">
+			        			<span class="label etiqueta">-30%</span>
+						     	<a href="oferta.php">
+				      				<img src="img/products/product1.jpg" alt="..." class="img-responsive">
+				    			</a>
+				    			<div class="caption-ks">
+				    				<div class="row titulo">
+				    					<h4 class="text-center">Una docena de + un regalo Casaca de Outdoor Terrex Swift...</h4>
+				    				</div>
+				    				<div class="row">
+				    					<div class="col-md-6">
+					    					<div style="line-height: 1">
+					    				    	<spam class="old">S/.120.00</spam><br/>
+					    				    	<spam class="new">S/.100.00</spam>
+						    				</div>
+										</div>
+										<div class="col-md-6">
+						    				<div class="pull-right">
+						    					<a href="oferta.php" class="btn btn-red" role="button"><i class="fa fa-tags fa-fw"></i> <span>Cupón</span></a>
+						    				</div>
+					    				</div>
+				    				</div>				    				
 
-		        		<div class="thumbnail">
-		        			<span class="etiqueta label label-danger">30%</span>
-					     	<a href="#">
-			      				<img src="img/products/product1.jpg" alt="...">
-			    			</a>
-			    			<div class="caption">
-			    				<div class="titulo">
-			    				<h4 class="top text-center">Casaca de Outdoor Terrex Swift</h4>
-			    				</div>
-			    				<!--<p>descripcion</p>-->
-			    				<p class="inline">
-			    				    <spam class="old">S/.120.00</spam><br>
-			    				    <spam class="new">S/.100.00</spam>          					
-			    				</p>
-			    				<p class="inline btn-right">
-			    					<a href="#" class="btn  btn-red" role="button"><i class="fa fa-tags fa-fw"></i><span>Cupón</span></a>
-			    				</p>
-			    			</div><!-- fin caption -->
-		    			</div><!-- fin thumbnail-->
+				    			</div><!-- fin caption -->
+			    			</div><!-- fin thumbnail-->		    			
 	    			</div><!-- fin col -->
-	    			<div class="col-md-4 col-p">
+	    			<div class="col-md-4  col-p">		        		
+			        		<div class="thumbnail">
+			        			<span class="label etiqueta">-30%</span>
+						     	<a href="oferta.php">
+				      				<img src="img/products/product1.jpg" alt="..." class="img-responsive">
+				    			</a>
+				    			<div class="caption-ks">
+				    				<div class="row titulo">
+				    					<h4 class="text-center">Una docena de + un regalo Casaca de Outdoor Terrex Swift...</h4>
+				    				</div>
+				    				<div class="row">
+				    					<div class="col-md-6">
+					    					<div style="line-height: 1">
+					    				    	<spam class="old">S/.120.00</spam><br/>
+					    				    	<spam class="new">S/.100.00</spam>
+						    				</div>
+										</div>
+										<div class="col-md-6">
+						    				<div class="pull-right">
+						    					<a href="oferta.php" class="btn btn-red" role="button"><i class="fa fa-tags fa-fw"></i> <span>Cupón</span></a>
+						    				</div>
+					    				</div>
+				    				</div>				    				
 
-		        		<div class="thumbnail">
-		        			<span class="etiqueta label label-danger">30%</span>
-					     	<a href="#">
-			      				<img src="img/products/product1.jpg" alt="...">
-			    			</a>
-			    			<div class="caption">
-			    				<div class="titulo">
-			    				<h4 class="top text-center">Casaca de Outdoor Terrex Swift</h4>
-			    				</div>
-			    				<!--<p>descripcion</p>-->
-			    				<p class="inline">
-			    				    <spam class="old">S/.120.00</spam><br>
-			    				    <spam class="new">S/.100.00</spam>          					
-			    				</p>
-			    				<p class="inline btn-right">
-			    					<a href="#" class="btn  btn-red" role="button"><i class="fa fa-tags fa-fw"></i><span>Cupón</span></a>
-			    				</p>
-			    			</div><!-- fin caption -->
-		    			</div><!-- fin thumbnail-->
+				    			</div><!-- fin caption -->
+			    			</div><!-- fin thumbnail-->		    			
 	    			</div><!-- fin col -->
-	    			<div class="col-md-4 col-p">
-		        		<div class="thumbnail">
-		        			<span class="etiqueta label label-danger">30%</span>
-					     	<a href="#">
-			      				<img src="img/products/product1.jpg" alt="...">
-			    			</a>
-			    			<div class="caption">
-			    				<div class="titulo">
-			    				<h4 class="top text-center">Casaca de Outdoor Terrex Swift Soft Shell</h4>
-			    				</div>
-			    				<!--<p>descripcion</p>-->
-			    				<p class="inline">
-			    				    <i class="fa fa-star text-red"></i><span class="text-red">Especial</span><br>
-			    				</p>
-			    				<p class="inline btn-right">
-			    					<a href="#" class="btn  btn-red" role="button"><i class="fa fa-tags fa-fw"></i><span>Cupón</span></a>
-			    				</p>
-			    			</div><!-- fin caption -->
-		    			</div><!-- fin thumbnail-->
-	    			</div><!-- fin col -->
-	    			<div class="col-md-4 col-p">
-		        		<div class="thumbnail">
-		        			<span class="etiqueta label label-danger">30%</span>
-					     	<a href="#">
-			      				<img src="img/products/product1.jpg" alt="...">
-			    			</a>
-			    			<div class="caption">
-			    				<div class="titulo">
-			    				<h4 class="top text-center">Polo con cuello</h4>
-			    				</div>
-			    				<!--<p>descripcion</p>-->
-			    				<p class="inline">
-			    				    <spam class="old">S/.120.00</spam><br>
-			    				    <spam class="new">S/.100.00</spam>          						
-			    				</p>
-			    				<p class="inline btn-right">
-			    					<a href="#" class="btn  btn-red" role="button"><i class="fa fa-tags fa-fw"></i><span>Cupón</span></a>
-			    				</p>
-			    			</div><!-- fin caption -->
-		    			</div><!-- fin thumbnail-->
-	    			</div><!-- fin col -->
-	    			<div class="col-md-4 col-p">
-		        		<div class="thumbnail">
-		        			<span class="etiqueta label label-danger">30%</span>
-					     	<a href="#">
-			      				<img src="img/products/product1.jpg" alt="...">
-			    			</a>
-			    			<div class="caption">
-			    				<div class="titulo">
-			    				<h4 class="top text-center">Polo con cuello</h4>
-			    				</div>
-			    				<!--<p>descripcion</p>-->
-			    				<p class="inline">
-			    				    <spam class="old">S/.120.00</spam><br>
-			    				    <spam class="new">S/.100.00</spam>          						
-			    				</p>
-			    				<p class="inline btn-right">
-			    					<a href="#" class="btn  btn-red" role="button"><i class="fa fa-tags fa-fw"></i><span>Cupón</span></a>
-			    				</p>
-			    			</div><!-- fin caption -->
-		    			</div><!-- fin thumbnail-->
-	    			</div><!-- fin col -->
-	    			<div class="col-md-4 col-p">
-		        		<div class="thumbnail">
-		        			<span class="etiqueta label label-danger">30%</span>
-					     	<a href="#">
-			      				<img src="img/products/product1.jpg" alt="...">
-			    			</a>
-			    			<div class="caption">
-			    				<div class="titulo">
-			    				<h4 class="top text-center">Polo con cuello</h4>
-			    				</div>
-			    				<!--<p>descripcion</p>-->
-			    				<p class="inline">
-			    				    <spam class="old">S/.120.00</spam><br>
-			    				    <spam class="new">S/.100.00</spam>          						
-			    				</p>
-			    				<p class="inline btn-right">
-			    					<a href="#" class="btn  btn-red" role="button"><i class="fa fa-tags fa-fw"></i><span>Cupón</span></a>
-			    				</p>
-			    			</div><!-- fin caption -->
-		    			</div><!-- fin thumbnail-->
-	    			</div><!-- fin col -->
-	    			<div class="col-md-4 col-p">
-		        		<div class="thumbnail">
-		        			<span class="etiqueta label label-danger">30%</span>
-					     	<a href="#">
-			      				<img src="img/products/product1.jpg" alt="...">
-			    			</a>
-			    			<div class="caption">
-			    				<div class="titulo">
-			    				<h4 class="top text-center">Polo con cuello</h4>
-			    				</div>
-			    				<!--<p>descripcion</p>-->
-			    				<p class="inline">
-			    				    <spam class="old">S/.120.00</spam><br>
-			    				    <spam class="new">S/.100.00</spam>          						
-			    				</p>
-			    				<p class="inline btn-right">
-			    					<a href="#" class="btn  btn-red" role="button"><i class="fa fa-tags fa-fw"></i><span>Cupón</span></a>
-			    				</p>
-			    			</div><!-- fin caption -->
-		    			</div><!-- fin thumbnail-->
-	    			</div><!-- fin col -->
+	    			<div class="col-md-4  col-p">		        		
+			        		<div class="thumbnail">
+			        			<span class="label etiqueta">-30%</span>
+						     	<a href="oferta.php">
+				      				<img src="img/products/product1.jpg" alt="..." class="img-responsive">
+				    			</a>
+				    			<div class="caption-ks">
+				    				<div class="row titulo">
+				    					<h4 class="text-center">Una docena de + un regalo Casaca de Outdoor Terrex Swift...</h4>
+				    				</div>
+				    				<div class="row">
+				    					<div class="col-md-6">
+					    					<div style="line-height: 1">
+					    				    	<spam class="old">S/.120.00</spam><br/>
+					    				    	<spam class="new">S/.100.00</spam>
+						    				</div>
+										</div>
+										<div class="col-md-6">
+						    				<div class="pull-right">
+						    					<a href="oferta.php" class="btn btn-red" role="button"><i class="fa fa-tags fa-fw"></i> <span>Cupón</span></a>
+						    				</div>
+					    				</div>
+				    				</div>				    				
 
+				    			</div><!-- fin caption -->
+			    			</div><!-- fin thumbnail-->		    			
+	    			</div><!-- fin col -->
+	    			<div class="col-md-4  col-p">		        		
+			        		<div class="thumbnail">
+			        			<span class="label etiqueta">-30%</span>
+						     	<a href="oferta.php">
+				      				<img src="img/products/product1.jpg" alt="..." class="img-responsive">
+				    			</a>
+				    			<div class="caption-ks">
+				    				<div class="row titulo">
+				    					<h4 class="text-center">Una docena de + un regalo Casaca de Outdoor Terrex Swift...</h4>
+				    				</div>
+				    				<div class="row">
+				    					<div class="col-md-6">
+					    					<div style="line-height: 1">
+					    				    	<spam class="old">S/.120.00</spam><br/>
+					    				    	<spam class="new">S/.100.00</spam>
+						    				</div>
+										</div>
+										<div class="col-md-6">
+						    				<div class="pull-right">
+						    					<a href="oferta.php" class="btn btn-red" role="button"><i class="fa fa-tags fa-fw"></i> <span>Cupón</span></a>
+						    				</div>
+					    				</div>
+				    				</div>				    				
+
+				    			</div><!-- fin caption -->
+			    			</div><!-- fin thumbnail-->		    			
+	    			</div><!-- fin col -->
+	    			<div class="col-md-4  col-p">		        		
+			        		<div class="thumbnail">
+			        			<span class="label etiqueta">-30%</span>
+						     	<a href="oferta.php">
+				      				<img src="img/products/product1.jpg" alt="..." class="img-responsive">
+				    			</a>
+				    			<div class="caption-ks">
+				    				<div class="row titulo">
+				    					<h4 class="text-center">Una docena de + un regalo Casaca de Outdoor Terrex Swift...</h4>
+				    				</div>
+				    				<div class="row">
+				    					<div class="col-md-6">
+					    					<div style="line-height: 1">
+					    				    	<spam class="old">S/.120.00</spam><br/>
+					    				    	<spam class="new">S/.100.00</spam>
+						    				</div>
+										</div>
+										<div class="col-md-6">
+						    				<div class="pull-right">
+						    					<a href="oferta.php" class="btn btn-red" role="button"><i class="fa fa-tags fa-fw"></i> <span>Cupón</span></a>
+						    				</div>
+					    				</div>
+				    				</div>				    				
+
+				    			</div><!-- fin caption -->
+			    			</div><!-- fin thumbnail-->		    			
+	    			</div><!-- fin col -->
+	    			<div class="col-md-4  col-p">		        		
+			        		<div class="thumbnail">
+			        			<span class="label etiqueta">-30%</span>
+						     	<a href="oferta.php">
+				      				<img src="img/products/product1.jpg" alt="..." class="img-responsive">
+				    			</a>
+				    			<div class="caption-ks">
+				    				<div class="row titulo">
+				    					<h4 class="text-center">Una docena de + un regalo Casaca de Outdoor Terrex Swift...</h4>
+				    				</div>
+				    				<div class="row">
+				    					<div class="col-md-6">
+					    					<div style="line-height: 1">
+					    				    	<spam class="old">S/.120.00</spam><br/>
+					    				    	<spam class="new">S/.100.00</spam>
+						    				</div>
+										</div>
+										<div class="col-md-6">
+						    				<div class="pull-right">
+						    					<a href="oferta.php" class="btn btn-red" role="button"><i class="fa fa-tags fa-fw"></i> <span>Cupón</span></a>
+						    				</div>
+					    				</div>
+				    				</div>				    				
+
+				    			</div><!-- fin caption -->
+			    			</div><!-- fin thumbnail-->		    			
+	    			</div><!-- fin col -->
+	    			<div class="col-md-4  col-p">		        		
+			        		<div class="thumbnail">
+			        			<span class="label etiqueta">-30%</span>
+						     	<a href="oferta.php">
+				      				<img src="img/products/product1.jpg" alt="..." class="img-responsive">
+				    			</a>
+				    			<div class="caption-ks">
+				    				<div class="row titulo">
+				    					<h4 class="text-center">Una docena de + un regalo Casaca de Outdoor Terrex Swift...</h4>
+				    				</div>
+				    				<div class="row">
+				    					<div class="col-md-6">
+					    					<div style="line-height: 1">
+					    				    	<spam class="old">S/.120.00</spam><br/>
+					    				    	<spam class="new">S/.100.00</spam>
+						    				</div>
+										</div>
+										<div class="col-md-6">
+						    				<div class="pull-right">
+						    					<a href="oferta.php" class="btn btn-red" role="button"><i class="fa fa-tags fa-fw"></i> <span>Cupón</span></a>
+						    				</div>
+					    				</div>
+				    				</div>				    				
+
+				    			</div><!-- fin caption -->
+			    			</div><!-- fin thumbnail-->		    			
+	    			</div><!-- fin col -->
     	  		</div><!-- fin row-->
-     </div>
-      
-     
-     
-<div class="clearfix"></div>
-<div class="container col-padding">
- <footer class="foot">
+      	</div>
+	 </div>  
+</div>   
 
+<div class="clearfix"></div>
+
+<div class="container-fluid container-foot">
+ <footer class="foot">
+			<div>
 	    	<div class="col-md-3">
-	    		<h4 class="text-white col-padding">FLASHTOP</h4>
+	    		<div class="box-footing-ks">
+	    		<h5 class="text-white col-padding">KOTOSH<b>STORE</b></h5>
 	    		<p class="text-white text-justify">
 	    			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	    			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -530,27 +561,33 @@
 	    			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 	    			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 	    		</p>
+	    		</div>
 	    	</div>
 	    	<div class="col-md-3">
-	    		<h4 class="text-white col-padding">INFORMACION</h4>
+	    		<div class="box-footing-ks">
+	    		<h5 class="text-white col-padding">INFORMACION</h5>
 	    		<ul class="text-white">
 	    			<li>Acerca</li>
 	    			<li>Misi&oacute;n y Visi&oacute;</li>
 	    			<li>Informes</li>
 	    			<li>etc etc</li>
 	    		</ul>
+	    		</div>
 	    	</div>
 	    	<div class="col-md-3">
-	    		<h4 class="text-white col-padding">CUENTA</h4>
+	    		<div class="box-footing-ks">
+	    		<h5 class="text-white col-padding">CUENTA</h5>
 	    		<ul class="text-white">
 	    			<li>Mi cuenta</li>
 	    			<li>Historial</li>
 	    			<li>etc etc</li>
 	    			<li>etc etc</li>
 	    		</ul>
+	    		</div>
 	    	</div>
 	    	<div class="col-md-3 getintouch">
-	    		<h4 class="text-white col-padding">CONTACTENOS</h4>
+	    		<div class="box-footing-ks">
+	    		<h5 class="text-white col-padding">CONTACTENOS</h5>
 	    		<ul class="text-white">
 	    			<li>
 	    				<div class="icon"><i class="fa fa-map-marker fa-fw"></i></div>
@@ -581,6 +618,8 @@
 		            <li class="icon facebook"><a href="#a"><i class="fa fa-facebook fa-fw"></i></a></li>
 		          </ul>
         		</div>
+        		</div>
+	    	</div>
 	    	</div>
 	    	<div class="clearfix"></div>
 	    	 <div class="copyrights">
@@ -594,46 +633,8 @@
 			      </div>
 			    </div>
 			  </div>
-	
-	 </footer>   
-	 </div>
-</div> <!-- fin container-->
-<script>
-
-(function($) {
-  "use strict";
- $('#menuMega').menu3d();
-                $('#iview').iView({
-                    pauseTime: 10000,
-                    pauseOnHover: true,
-                    directionNavHoverOpacity: 0.6,
-                    timer: "360Bar",
-                    timerBg: '#2da5da',
-                    timerColor: '#fff',
-                    timerOpacity: 0.9,
-                    timerDiameter: 20,
-                    timerPadding: 1,
-					touchNav: true,
-                    timerStroke: 2,
-                    timerBarStrokeColor: '#fff'
-                });
-				
-                $('.quickbox').carousel({
-                    interval: 10000
-                });
-               $('#monthly-deals').carousel({
-                    interval: 3000
-                });
-                $('#productc2').carousel({
-                    interval: 4000
-                });
-                $('#tweets').carousel({
-                    interval: 5000
-                });
-})(jQuery);
-
-
-          
-        </script>
+ </footer>   
+</div>
+<script>(function($) {"use strict";$('#menuMega').menu3d();})(jQuery);</script>
   </body>
 </html>
