@@ -63,8 +63,8 @@
       </ul>
       <form class="navbar-form navbar-right" role="search">
         <div class="form-group">        	
-	  		<input type="text" class="form-control form-ks" placeholder="Search">
-	  		<button type="submit" class="btn btn-primary"><i class="fa fa-search"></i></button>
+	  		<input type="text" class="form-control form-ks" placeholder="Escribir el nombre del producto o la Tienda" style="width:300px">
+	  		<button type="submit" class="btn"><i class="fa fa-search"></i></button>
         </div>        
       </form>
     </div>

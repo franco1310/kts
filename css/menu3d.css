@@ -435,7 +435,7 @@
 .menu3dmega > ul > li i {
    
     font-size: 18px;
-    line-height: 49px;
+    line-height: 50px;
     text-align: center;
     vertical-align: middle;
     width: 58px;
@@ -497,5 +497,5 @@
 .menu3dmega > ul > li i {line-height: 49px;}
 }
 @media (min-width: 1200px) {
-.menu3dmega > ul > li i {line-height: 49px;}
+.menu3dmega > ul > li i {line-height: 50px;}
 }
