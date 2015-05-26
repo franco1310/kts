@@ -372,7 +372,7 @@
         skin: 'skin-blue-dark',
 
         // Duration per element
-        speed: 300,
+        speed: 0,
 
         //Horizontal or vertical
         vertical: true,

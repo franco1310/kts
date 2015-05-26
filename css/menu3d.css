@@ -24,8 +24,7 @@
 
     font-size: 18px;
     font-weight: bold;
-    padding-top: 23px;
-    padding: 22px;
+    padding: 15px 22px 12px 22px;    
 }
 .menu-heading > span > i {
     padding-right: 35px;
@@ -436,7 +435,7 @@
 .menu3dmega > ul > li i {
    
     font-size: 18px;
-    line-height: 58px;
+    line-height: 49px;
     text-align: center;
     vertical-align: middle;
     width: 58px;
@@ -498,5 +497,5 @@
 .menu3dmega > ul > li i {line-height: 49px;}
 }
 @media (min-width: 1200px) {
-.menu3dmega > ul > li i {line-height: 58px;}
+.menu3dmega > ul > li i {line-height: 49px;}
 }
