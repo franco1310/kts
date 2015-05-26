@@ -73,8 +73,9 @@
 </div> 
 
 <div class="container">	
-     <div class="row">
-        <div class="col-md-3 col-padding">	        
+     <div class="row clearfix">
+        <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 menu-col col-padding-ks3">
+            
 	        <article class="bg-white">	        		
 	              	<div class="menu-heading">
 	              		<span> <i class="fa fa-bars"></i> Categorias</span> 
@@ -87,7 +88,7 @@
 				                <!-- Sub Menu -->
 				                <div class="content">
 				                  <div class="row">
-				                    <div class="col-md-4"> <a class="menu-title" href="#a">Fashion</a>
+				                    <div class="col-md-4 pull-left"> <a class="menu-title" href="#a">Fashion</a>
 				                      <ul>
 				                        <li><a href="#a">Clothing</a></li>
 				                        <li><a href="#a">Shoes</a></li>
@@ -97,7 +98,7 @@
 				                        <li><a href="#a">Jewelry</a></li>
 				                      </ul>
 				                    </div>
-				                    <div class="col-md-4"> <a class="menu-title" href="#a">Shirts</a>
+				                    <div class="col-md-4 pull-left"> <a class="menu-title" href="#a">Shirts</a>
 				                      <ul>
 				                        <li><a href="#a">Reguler Shirts</a></li>
 				                        <li><a href="#a">Slim Shirts</a></li>
@@ -107,7 +108,7 @@
 				                        <li><a href="#a">Gray Shirts</a></li>
 				                      </ul>
 				                    </div>
-				                    <div class="col-md-4"> <a class="menu-title" href="#a">Jeans</a>
+				                    <div class="col-md-4 pull-left"> <a class="menu-title" href="#a">Jeans</a>
 				                      <ul>
 				                        <li><a href="#a">Reguler Jeans</a></li>
 				                        <li><a href="#a">Slim-fit Jeans</a></li>
@@ -130,7 +131,7 @@
 				                <!-- Sub Menu -->
 				                <div class="content">
 				                  <div class="row">
-				                    <div class="col-md-4"> <a class="menu-title" href="#a">Fashion</a>
+				                    <div class="col-md-4 pull-left"> <a class="menu-title" href="#a">Fashion</a>
 				                      <ul>
 				                        <li><a href="#a">Clothing</a></li>
 				                        <li><a href="#a">Shoes</a></li>
@@ -140,7 +141,7 @@
 				                        <li><a href="#a">Jewelry</a></li>
 				                      </ul>
 				                    </div>
-				                    <div class="col-md-4"> <a class="menu-title" href="#a">Shirts</a>
+				                    <div class="col-md-4 pull-left"> <a class="menu-title" href="#a">Shirts</a>
 				                      <ul>
 				                        <li><a href="#a">Reguler Shirts</a></li>
 				                        <li><a href="#a">Slim Shirts</a></li>
@@ -150,7 +151,7 @@
 				                        <li><a href="#a">Gray Shirts</a></li>
 				                      </ul>
 				                    </div>
-				                    <div class="col-md-4"> <a class="menu-title" href="#a">Jeans</a>
+				                    <div class="col-md-4 pull-left"> <a class="menu-title" href="#a">Jeans</a>
 				                      <ul>
 				                        <li><a href="#a">Reguler Jeans</a></li>
 				                        <li><a href="#a">Slim-fit Jeans</a></li>
@@ -173,7 +174,7 @@
 				                <!-- Sub Menu -->
 				                <div class="content">
 				                  <div class="row">
-				                    <div class="col-md-4"> <a class="menu-title" href="#a">Fashion</a>
+				                    <div class="col-md-4 pull-left"> <a class="menu-title" href="#a">Fashion</a>
 				                      <ul>
 				                        <li><a href="#a">Clothing</a></li>
 				                        <li><a href="#a">Shoes</a></li>
@@ -183,7 +184,7 @@
 				                        <li><a href="#a">Jewelry</a></li>
 				                      </ul>
 				                    </div>
-				                    <div class="col-md-4"> <a class="menu-title" href="#a">Shirts</a>
+				                    <div class="col-md-4 pull-left"> <a class="menu-title" href="#a">Shirts</a>
 				                      <ul>
 				                        <li><a href="#a">Reguler Shirts</a></li>
 				                        <li><a href="#a">Slim Shirts</a></li>
@@ -193,7 +194,7 @@
 				                        <li><a href="#a">Gray Shirts</a></li>
 				                      </ul>
 				                    </div>
-				                    <div class="col-md-4"> <a class="menu-title" href="#a">Jeans</a>
+				                    <div class="col-md-4 pull-left"> <a class="menu-title" href="#a">Jeans</a>
 				                      <ul>
 				                        <li><a href="#a">Reguler Jeans</a></li>
 				                        <li><a href="#a">Slim-fit Jeans</a></li>
@@ -215,7 +216,7 @@
 				                <!-- Sub Menu -->
 				                <div class="content">
 				                  <div class="row">
-				                    <div class="col-md-4"> <a class="menu-title" href="#a">Fashion</a>
+				                    <div class="col-md-4 pull-left"> <a class="menu-title" href="#a">Fashion</a>
 				                      <ul>
 				                        <li><a href="#a">Clothing</a></li>
 				                        <li><a href="#a">Shoes</a></li>
@@ -225,7 +226,7 @@
 				                        <li><a href="#a">Jewelry</a></li>
 				                      </ul>
 				                    </div>
-				                    <div class="col-md-4"> <a class="menu-title" href="#a">Shirts</a>
+				                    <div class="col-md-4 pull-left"> <a class="menu-title" href="#a">Shirts</a>
 				                      <ul>
 				                        <li><a href="#a">Reguler Shirts</a></li>
 				                        <li><a href="#a">Slim Shirts</a></li>
@@ -235,7 +236,7 @@
 				                        <li><a href="#a">Gray Shirts</a></li>
 				                      </ul>
 				                    </div>
-				                    <div class="col-md-4"> <a class="menu-title" href="#a">Jeans</a>
+				                    <div class="col-md-4 pull-left"> <a class="menu-title" href="#a">Jeans</a>
 				                      <ul>
 				                        <li><a href="#a">Reguler Jeans</a></li>
 				                        <li><a href="#a">Slim-fit Jeans</a></li>
@@ -257,6 +258,7 @@
 	              	</div>
 	        </article>
 	        <div class="clearfix"><div class="vacio"></div></div>
+	        
 	        <article class="">
 	        	<div class="menu3dmega vertical border-bottom" id="menuMega">
 	              		<ul>
@@ -266,9 +268,14 @@
 	            			<a href="#a"> <i class="fa fa-envelope"></i> <span>Suscribete</span></a> </li>
 	              		</ul>
 	              	</div>
-	        </article>    	
+	        </article>   
+            
     	</div>    	  
-    	<div class="col-md-9 col-padding"> 
+
+
+
+    	
+    		<div class="col-lg-9 col-md-9 col-sm-8 col-xs-12 menu-col-2 pull-right"> 
     	  	<!-- Iview Slider -->
 		        
 		        <section id="miSlide" class="carousel slide">
@@ -292,11 +299,13 @@
 	                <a href="#miSlide" class="left carousel-control" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
 	                <a href="#miSlide" class="right carousel-control" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
             	</section>
-
-		        <div class="sub-title-ks">
-		        	Los m&aacute;s recientes
-		        </div>
-		        <div>
+            
+    
+                
+			             	<div class="sub-title-ks">
+			        		Los m&aacute;s recientes
+			        	</div>
+			        	
 		        	<div class="col-md-4  col-p">		        		
 			        		<div class="thumbnail">
 			        			<span class="label etiqueta">-30%</span>
@@ -337,8 +346,8 @@
 				    				<div class="row">
 				    					<div class="col-md-6">
 					    					<div style="line-height: 1">
-					    				    	<spam class="old">S/.120.00</spam><br/>
-					    				    	<spam class="new">S/.100.00</spam>
+					    				    	<!--<spam class="old">S/.120.00</spam>--><br/>
+					    				    	<spam class="new"><i class="fa fa-star fa-fw text-red">Especial</i></spam>
 						    				</div>
 										</div>
 										<div class="col-md-6">
@@ -540,17 +549,20 @@
 				    			</div><!-- fin caption -->
 			    			</div><!-- fin thumbnail-->		    			
 	    			</div><!-- fin col -->
-    	  		</div><!-- fin row-->
-      	</div>
-	 </div>  
-</div>   
+                                
+             
+    	  		
+            </div><!-- fin columnas 9 -->
+
+	 </div>  <!-- fin row -->
+</div>   <!-- fin container -->
 
 <div class="clearfix"></div>
 
 <div class="container-fluid container-foot">
  <footer class="foot">
-			<div>
-	    	<div class="col-md-3">
+			
+	    	<div class="col-md-3 pull-left shopinfo">
 	    		<div class="box-footing-ks">
 	    		<h5 class="text-white col-padding">KOTOSH<b>STORE</b></h5>
 	    		<p class="text-white text-justify">
@@ -562,8 +574,8 @@
 	    			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 	    		</p>
 	    		</div>
-	    	</div>
-	    	<div class="col-md-3">
+                </div>
+	    	<div class="col-md-3 pull-left">
 	    		<div class="box-footing-ks">
 	    		<h5 class="text-white col-padding">INFORMACION</h5>
 	    		<ul class="text-white">
@@ -574,7 +586,7 @@
 	    		</ul>
 	    		</div>
 	    	</div>
-	    	<div class="col-md-3">
+	    	<div class="col-md-3 pull-left">
 	    		<div class="box-footing-ks">
 	    		<h5 class="text-white col-padding">CUENTA</h5>
 	    		<ul class="text-white">
@@ -585,7 +597,7 @@
 	    		</ul>
 	    		</div>
 	    	</div>
-	    	<div class="col-md-3 getintouch">
+	    	<div class="col-md-3 pull-left getintouch">
 	    		<div class="box-footing-ks">
 	    		<h5 class="text-white col-padding">CONTACTENOS</h5>
 	    		<ul class="text-white">
@@ -620,7 +632,7 @@
         		</div>
         		</div>
 	    	</div>
-	    	</div>
+	    	
 	    	<div class="clearfix"></div>
 	    	 <div class="copyrights">
 			    <div class="container">

@@ -307,15 +307,16 @@
 	    	  			<h4>Pantal&oacute;n de Vestir Foster modelo cl&aacute;sico 20% de descuento</h4>
 	    	  			<h2 class="text-center text-red"><strong>S/. 80.00</strong></h2>
 	    	  		
-	    	  		
+						<div class="box center-block text-center f-space20">	    	  			
 	    	  			<p>Precio Regular</p>
                         <p>Descuento con Cup&oacute;n</p>
                         <p>Ahorro Total</p>
                         <p class="p1" style="font-size:15px">S/. 100.00</p>
                         <p class="p2" style="font-size:15px">20%</p>
                         <p class="p3" style="font-size:15px">S/. 20.00</p>
-                        
-                        <a href="#" class="btn btn-red center-block btn-cupon"><i class="fa fa-tags fa-fw"></i>Quiero mi Cup&oacute;n</a>
+                        </div>
+
+                        <a href="#" class=" btn btn-red center-block btn-cupon f-space10"><i class="fa fa-tags fa-fw"></i>Quiero mi Cup&oacute;n</a>
 
                         <div class="aviso center-block text-center f-space20">
                         	<h4>
@@ -323,13 +324,13 @@
                         	<i class="fa fa-clock-o fa-fw"></i>20 de Marzo del 2015 <br>
                         	<small class="text-black">&oacute; hasta agotar stock</small></h4>
                         </div>
-                        <div class="comparte f-space10 clearfix">
-                           <div class="iconos-ks pull-right">
+                        <div class="comparte f-space15">
+                           <div class="iconos-ks pull-right f-bottom12">
 	                        <b>Comparte </b>
-	                        <i class="fa fa-facebook-square"></i>
-	                        <i class="fa fa-twitter-square"></i>
-	                        <i class="fa fa-google-plus-square"></i>
-	                        <i class="fa fa-envelope"></i>
+	                        <a href="#" target="_blanck"><i class="fa fa-facebook-square i-big"></i></a>
+	                        <a href="#" target="_blanck"><i class="fa fa-twitter-square i-big"></i></a>
+	                        <a href="#" target="_blanck"><i class="fa fa-google-plus-square i-big"></i></a>
+	                        <a href="#" target="_blanck"><i class="fa fa-envelope i-big"></i></a>
 	                       </div>
                         </div>
 	    	  		</div>
@@ -337,35 +338,38 @@
     	  	</section>
     	<div class="f-space5"></div>
      	<div class="col-md-12 bg-white col-padding">
-     		<div class="col-padding">
+     		<div class="informacion col-padding10">
      			<div id="content">
 				    <ul id="tabs" class="nav nav-tabs" data-tabs="tabs">
-				        <li class="active"><a href="#red" data-toggle="tab">Red</a></li>
-				        <li><a href="#orange" data-toggle="tab">Orange</a></li>
-				        <li><a href="#yellow" data-toggle="tab">Yellow</a></li>
-				        <li><a href="#green" data-toggle="tab">Green</a></li>
-				        <li><a href="#blue" data-toggle="tab">Blue</a></li>
+				        <li class="active bg-white-h"><a href="#info" data-toggle="tab" class="text-red">Informaci&oacute;n</a></li>
+				        <li class="bg-white-h text-red"><a href="#empresa" data-toggle="tab" class="text-red">Empresa</a></li>
 				    </ul>
 				    <div id="my-tab-content" class="tab-content">
-				        <div class="tab-pane active" id="red">
-				            <h1>Red</h1>
-				            <p>red red red red red red</p>
+				        <div class="tab-pane active" id="info">
+				            <h2>Producto one</h2>
+				            <p>
+				            	TODO SOBRE LA OFERTA
+								¡Atento amante del cine! Con este descuento de 70% tendrás 
+								la oportunidad de ver tu película favorita y disfrutar de un 
+								combo para 2 personas. ¡Sí, así es! ¿Qué esperas para hacer 
+								clic en "Comprar" y vivir un momento agradable en compañía de 
+								quien desees? ¡Apúrate, que las butacas, la canchita y gaseosa 
+								se agotan!
+								La oferta incluye:
+								OPCIÓN 1:
+								S/. 19.90 en vez de S/. 67 por: ¡Precio especial Shopin para los primeros 50! 
+								 2 Entradas a Cineplanet de Lima
+								 1 Pop corn gigante
+								 2 Bebidas pequeñas
+				            </p>
 				        </div>
-				        <div class="tab-pane" id="orange">
-				            <h1>Orange</h1>
-				            <p>orange orange orange orange orange</p>
-				        </div>
-				        <div class="tab-pane" id="yellow">
-				            <h1>Yellow</h1>
-				            <p>yellow yellow yellow yellow yellow</p>
-				        </div>
-				        <div class="tab-pane" id="green">
-				            <h1>Green</h1>
-				            <p>green green green green green</p>
-				        </div>
-				        <div class="tab-pane" id="blue">
-				            <h1>Blue</h1>
-				            <p>blue blue blue blue blue</p>
+				        <div class="tab-pane" id="empresa">
+				            <h2>EMPRESAONE</h2>
+				            <p>
+				            	Razon Comercial: Andres EIRL<br>
+				            	Nombre Contacto:Andres Garcia Macedo<br>
+				            	Sitio Web: www.er.com 
+				            </p>
 				        </div>
 				    </div>
 				</div><!-- fin content -->
@@ -375,7 +379,7 @@
      	<div class="col-md-12 col-p-ks">
      		<div class="">
      			<div class="sub-title-ks">
-		        	Mas ofertas de esta tienda
+		        	MAS OFERTAS DE ESTA TIENDA <small><a href="#" class="text-red">VER TODAS</a></small>
 		        </div>
 
 		        <div class="col-md-4  col-p">		        		
@@ -471,10 +475,11 @@
      
 <div class="clearfix"></div>
 <div class="container-fluid container-foot">
- <footer class="foot">
-
+<footer class="foot">
+			<div>
 	    	<div class="col-md-3">
-	    		<h4 class="text-white col-padding">FLASHTOP</h4>
+	    		<div class="box-footing-ks">
+	    		<h5 class="text-white col-padding">KOTOSH<b>STORE</b></h5>
 	    		<p class="text-white text-justify">
 	    			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	    			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -483,27 +488,33 @@
 	    			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 	    			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 	    		</p>
+	    		</div>
 	    	</div>
 	    	<div class="col-md-3">
-	    		<h4 class="text-white col-padding">INFORMACION</h4>
+	    		<div class="box-footing-ks">
+	    		<h5 class="text-white col-padding">INFORMACION</h5>
 	    		<ul class="text-white">
 	    			<li>Acerca</li>
 	    			<li>Misi&oacute;n y Visi&oacute;</li>
 	    			<li>Informes</li>
 	    			<li>etc etc</li>
 	    		</ul>
+	    		</div>
 	    	</div>
 	    	<div class="col-md-3">
-	    		<h4 class="text-white col-padding">CUENTA</h4>
+	    		<div class="box-footing-ks">
+	    		<h5 class="text-white col-padding">CUENTA</h5>
 	    		<ul class="text-white">
 	    			<li>Mi cuenta</li>
 	    			<li>Historial</li>
 	    			<li>etc etc</li>
 	    			<li>etc etc</li>
 	    		</ul>
+	    		</div>
 	    	</div>
 	    	<div class="col-md-3 getintouch">
-	    		<h4 class="text-white col-padding">CONTACTENOS</h4>
+	    		<div class="box-footing-ks">
+	    		<h5 class="text-white col-padding">CONTACTENOS</h5>
 	    		<ul class="text-white">
 	    			<li>
 	    				<div class="icon"><i class="fa fa-map-marker fa-fw"></i></div>
@@ -534,6 +545,8 @@
 		            <li class="icon facebook"><a href="#a"><i class="fa fa-facebook fa-fw"></i></a></li>
 		          </ul>
         		</div>
+        		</div>
+	    	</div>
 	    	</div>
 	    	<div class="clearfix"></div>
 	    	 <div class="copyrights">
@@ -547,45 +560,9 @@
 			      </div>
 			    </div>
 			  </div>
-	
-	 </footer>   
+ </footer>   
 	 </div>
 
-<script>
-(function($) {
-  "use strict";
- $('#menuMega').menu3d();
-                $('#iview').iView({
-                    pauseTime: 10000,
-                    pauseOnHover: true,
-                    directionNavHoverOpacity: 0.6,
-                    timer: "360Bar",
-                    timerBg: '#2da5da',
-                    timerColor: '#fff',
-                    timerOpacity: 0.9,
-                    timerDiameter: 20,
-                    timerPadding: 1,
-					touchNav: true,
-                    timerStroke: 2,
-                    timerBarStrokeColor: '#fff'
-                });
-				
-                $('.quickbox').carousel({
-                    interval: 10000
-                });
-               $('#monthly-deals').carousel({
-                    interval: 3000
-                });
-                $('#productc2').carousel({
-                    interval: 4000
-                });
-                $('#tweets').carousel({
-                    interval: 5000
-                });
-})(jQuery);
-
-
-          
-        </script>
+<script>(function($) {"use strict";$('#menuMega').menu3d();})(jQuery);</script>
   </body>
 </html>
